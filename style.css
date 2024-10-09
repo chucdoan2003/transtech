@@ -72,15 +72,23 @@ h1{
     background-color: #fff;
     width: 700px;
     margin: 12px;
-    border-radius: 12px;
-    padding: 6px 12px;
+    border-radius: 16px;
+    padding: 12px 12px;
     cursor: pointer;
+    transition: 0.4 ease-out;
+    outline: none;
+    border:  none;
+
+}
+a{
+    text-decoration: none;
+}
+
+.contact:hover{
+    transform: scaleX(1.015);
 }
 .contact:active{
     transform: scaleX(0.95);
-}
-.contact:hover{
-    transform: scaleX(1.05);
 }
 .contact-text{
     flex-grow: 1;
