@@ -76,12 +76,12 @@ h1{
     padding: 12px 12px;
     cursor: pointer;
     transition: 0.4 ease-out;
-    outline: none;
-    border:  none;
+    outline: none !important;
+    border:  none !important;
 
 }
 a{
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 .contact:hover{
